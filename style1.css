@@ -1,0 +1,9 @@
+/* ↓580px以上の時のコード＝デスクトップファースト */
+h1 {
+    font-size: 300px;
+}
+@media screen and (max-width:580px) {
+    h1 {
+        font-size: 30px;
+    }    
+}
